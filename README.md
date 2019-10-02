@@ -1,15 +1,17 @@
 # azure functions custom bindings sample
 
-This is Teams notification custom bindings sample.
+This is MS Teams notification custom bindings sample.
+
+When Http trigger function app get request, functions app send message to MS Teams.
 
 ## Prerequisits
 
 ### Teams settings
 
-- add **Incoming Webhook** and get webhook url.
+- add **Incoming Webhook** and get webhook url.  
   https://docs.microsoft.com/ja-jp/microsoftteams/platform/concepts/connectors/connectors-using?redirectedfrom=MSDN#setting-up-a-custom-incoming-webhook
 
-  more detail: [this my blog post]()
+  more detail: [my blog post](https://blog.beachside.dev/entry/2019/10/02/212000)
 
 ### Functions App settings
 
@@ -31,11 +33,11 @@ For local debug,
 }
 ```
 
-for Azure
+for Running on Azure,
 
-- add Application settings to "TeamsWebhookUri" key and value.
+- Set "TeamsWebhookUri" key and value to Application settings.
 
 
 ## For more information
 
-- [my blog post]().
+- [my blog post](https://blog.beachside.dev/entry/2019/10/02/212000).
