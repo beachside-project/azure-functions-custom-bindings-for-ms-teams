@@ -4,13 +4,13 @@ This is MS Teams notification custom bindings sample.
 
 When Http trigger function app get request, functions app send message to MS Teams.
 
+![sample image](/images/sample.png)
+
 ## Prerequisits
 
 ### Teams settings
 
-- add **Incoming Webhook** and get webhook url.  
-  https://docs.microsoft.com/ja-jp/microsoftteams/platform/concepts/connectors/connectors-using?redirectedfrom=MSDN#setting-up-a-custom-incoming-webhook
-
+- add **Incoming Webhook** and get webhook url. See [official document](https://docs.microsoft.com/ja-jp/microsoftteams/platform/concepts/connectors/connectors-using?redirectedfrom=MSDN#setting-up-a-custom-incoming-webhook).  
   more detail: [my blog post](https://blog.beachside.dev/entry/2019/10/02/212000)
 
 ### Functions App settings
