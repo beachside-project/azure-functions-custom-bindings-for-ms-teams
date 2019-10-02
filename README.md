@@ -4,9 +4,9 @@ This is MS Teams notification custom bindings sample.
 
 When Http trigger function app get request, functions app send message to MS Teams.
 
-![sample image](/images/sample.png)
+<img src="/images/sample.png" width="480">
 
-## Prerequisits
+## Prerequisites
 
 ### Teams settings
 
